@@ -1,0 +1,12 @@
+
+
+input_value = input("Enter the phrase 'Hot Shot': ")
+
+while ((input_value == 'Hot Shot') == True):
+    print("Yes you are!")
+    break
+while ((input_value == 'Hot Shot') == False):
+    print("Nope have another go... ") 
+    input_value = input()
+    break
+#complete

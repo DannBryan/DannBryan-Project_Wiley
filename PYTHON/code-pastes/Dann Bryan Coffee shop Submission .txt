@@ -1,0 +1,47 @@
+print("Welcome to Hot coffee!")
+print("We offer small, medium, and large cups of brewed, espresso, or cold brew coffee.")
+print("You can add hazelnut, vanilla, or caramel flavoring for an additional 50 cents.")
+print("Let's get started!")
+
+# Set the initial price to 0
+price = 0.0
+
+# Get coffee size from user
+sml = input("Would you like a small, medium, or large coffee? ")
+
+# Update price based on coffee size
+if sml == "small":
+     price += 2.0
+elif sml == "medium":
+     price += 3.0
+elif sml == "large":
+     price += 4.0
+
+# Get coffee type from user
+kind = input("What type of coffee would you like? (brewed, espresso, or cold brew) ")
+
+# Update price based on coffee type
+if kind == "espresso":
+    price += 0.5
+elif kind == "cold brew":
+    price += 1.0
+
+# Get flavor from user
+flavour = input("Would you like to add any flavoring? (hazelnut, vanilla, caramel, or none) ")
+
+# Update price based on flavor
+if flavour != "none":
+    price += 0.5
+
+# Output the user's order
+print("You ordered a", sml, kind, "coffee", "with", flavour, "flavoring.")
+
+# Calculate total price with tip
+tip = price * 0.15
+total_price = price + tip
+
+# Round off to 2 decimal place
+total_price = round(total_price, 2) 
+
+# Output total price with tip
+print("Your coffee is made, that's £", total_price, " to pay please, including a 15% tip.")

@@ -1,0 +1,120 @@
+import string
+
+s = 'Imagine a vast sheet of paper on which straight lines, triangles, \
+squares, pentagons, hexagons, and other figures, instead of remaining \
+fixed in their places, move freely about on or in the surface, \
+but without the power of rising above or sinking below it - very much like shadows. \
+Only hard and with luminous edges. And you will then have a pretty correct notion of my \
+country and countrymen. Alas, a few years ago, I should have said "my universe": \
+but now my mind has been opened to higher views of things.'
+s_lower = s.lower()       #Convert to lowercase 
+s_words = s_lower.split()    #Split the lowercase string                     
+
+
+punctuation_list = list(string.punctuation)     #Remove the punctuation
+s_clean = []
+for w in s_words:
+    if len(w) == 1 and w in punctuation_list:
+        continue
+    elif w[0] in punctuation_list:
+        s_clean.append(w[1:])
+    elif w[-1] in punctuation_list:
+        s_clean.append(w[:-1])
+    else:
+        s_clean.append(w)
+
+
+w_counts = {}
+for w in s_clean:
+    if w in w_counts:         #count analysis on the words without punctuation
+        w_counts[w] += 1
+    else:
+        w_counts[w] = 1
+
+
+distinct_words = len(w_counts)
+print(f"Distinct words: {distinct_words}")     #display the dictionary with the word counts and 
+print("Word count:")                          #distinct words in original string
+for w, count in w_counts.items():
+    print(f"{w}: {count}")                  
+
+########################################################
+
+Output:
+
+Distinct words: 73
+Word count:
+imagine: 1
+a: 3
+vast: 1
+sheet: 1
+of: 5
+paper: 1
+on: 2
+which: 1
+straight: 1
+lines: 1
+triangles: 1
+squares: 1
+pentagons: 1
+hexagons: 1
+and: 4
+other: 1
+figures: 1
+instead: 1
+remaining: 1
+fixed: 1
+in: 2
+their: 1
+places: 1
+move: 1
+freely: 1
+about: 1
+or: 2
+the: 2
+surface: 1
+but: 2
+without: 1
+power: 1
+rising: 1
+above: 1
+sinking: 1
+below: 1
+it: 1
+very: 1
+much: 1
+like: 1
+shadows: 1
+only: 1
+hard: 1
+with: 1
+luminous: 1
+edges: 1
+you: 1
+will: 1
+then: 1
+have: 2
+pretty: 1
+correct: 1
+notion: 1
+my: 3
+country: 1
+countrymen: 1
+alas: 1
+few: 1
+years: 1
+ago: 1
+i: 1
+should: 1
+said: 1
+universe": 1
+now: 1
+mind: 1
+has: 1
+been: 1
+opened: 1
+to: 1
+higher: 1
+views: 1
+things: 1
+​

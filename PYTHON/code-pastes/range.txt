@@ -1,0 +1,27 @@
+
+message = "Hello, World!" 
+#for i in range(len(message)):
+
+print(message[::-1]) #print everything but start for -1, last position
+
+
+#############################
+
+
+for i in range(0, 100):
+    if i % 3  == 0:
+        print(i)           # all num devisable by 3. quicker than other ways
+
+####################################
+
+seq_range = range(0,5)
+
+print(type(seq_range))
+
+for r in seq_range:
+    print(r)
+    
+seq_list = (0, 1, 2, 3, 4)
+for l in  seq_list:
+    print(l)
+   

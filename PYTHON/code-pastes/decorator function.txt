@@ -1,0 +1,10 @@
+begin = time.time()
+
+        r = func(*args, **kwargs) # exec the actual function
+
+        # storing time after function execution
+        end = time.time()
+
+print(end - begin)
+return r
+#for time checks
