@@ -1,0 +1,53 @@
+#search list to find mike
+
+list_of_names = ["Kate", "Jennifer", "Mike", "Pete", "Alex", "Mike"]
+
+search_term = "Mike"
+
+if search_term in list_of_names:
+    print(search_term + " appears at least once i  the list.")
+    
+for i in list_of_names:
+    if i == search_term:
+        print("we found " + search_term)
+
+#########################################################
+#search list of numbers, print negeative
+
+list_of_numbers = [0, 1, -9, -10, 3, 56, 45, -11, 35, 2, -23]
+
+for item in list_of_numbers:
+    if item <0:
+        print(item)
+
+###########################################################
+
+list_of_names = ["Kate", "Jennifer", "Mike", "Pete", "Alex", "Mike"]
+search_term = "Mike"
+
+search_term = input("Enter the value")# user input
+            #check that the search term occurs at least once in the list
+if search_term in list_of_names:
+    print (search_term + " appears at least once in the list.")
+
+            #use the variable name to store each item in the list sequentially 
+            #and compare name to the search term
+            #print a separate statement for each instance of the search term
+for name in list_of_names:
+    if name == search_term:
+        print("We found " + search_term)
+
+#############################################################################
+             #create tuple and search for duplicates
+
+tuple_1 = ("socks", "jumper", "trousers", "socks", "shorts", "jumper")
+
+dupes = []
+for item in tuple_1:
+    if tuple_1.count(item) > 1 and item not in dupes:
+        dupes.append(item)
+
+print("These are the duplicates:", dupes,)
+   
+##########################################################################
+

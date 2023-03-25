@@ -1,0 +1,111 @@
+######################################################
+#Activity 8 test submission. Dannb
+######################################################
+
+#!/bin/bash
+
+echo "Please enter a series of 5-10 integers:"
+
+numbers=()
+
+
+count=0
+
+while [ $count -lt 10 ]
+do
+   
+    read -p "Enter number $((count+1)): " input
+
+   
+    if [ -z "$input" ]
+    then
+        break
+    fi
+
+    numbers+=("$input")
+    ((count++
+    if [ $count -eq 10 ]
+    then
+        break
+    fi
+    read -p "Do you want to enter another number? (y/n) " answer
+    if [ "$answer" = "n" ]
+    then
+        break
+    fi
+done
+if [ ${#numbers[@]} -lt 5 ]
+then
+    echo "You must enter at least 5 numbers."
+    exit 1
+fi
+
+product=1
+sum=0
+min=${numbers[0]}
+max=${numbers[0]}
+for n in "${numbers[@]}"
+do
+    if [ "$n" -lt "$min" ]
+    then
+        min=$n
+    fi
+    if [ "$n" -gt "$max" ]
+    then
+        max=$n
+    fi
+    ((sum+=n))
+    ((product*=n))
+done
+avg=$(bc -l <<< "$sum/${#numbers[@]}")
+
+# Display user inputs and calculations
+echo "You entered: ${numbers[@]}"
+echo "The product of the integers is $product."
+echo "The average of the integers is $avg."
+echo "The sum of the integers is $sum."
+echo "The minimum of the integers is $min."
+echo "The maximum of the integers is $max."
+
+#####################################################
+#Activity 17 test submission. Dannb
+###################################################
+#!/bin/bash
+
+
+input_file="fix_log.txt"
+output_file="fix_log.csv"
+
+echo "Client, Message type, stock, quantity, price, side, order id, last quantity, exec id, last price" > $output_file
+
+while read -r line
+do
+ 
+    IFS="|" read -a fields <<< "$line"
+
+    
+    msg_type=${fields[1]}
+    stock=${fields[3]}
+    quantity=${fields[5]}
+    price=${fields[6]}
+    side=${fields[7]}
+    order_id=${fields[10]}
+    last_qty=${fields[31]}
+    exec_id=${fields[17]}
+    last_price=${fields[32]}
+
+    case $msg_type in
+        "D") msg_type="New Order";;
+        "8") msg_type="Execution Report";;
+        "F") msg_type="Order Cancel Request";;
+        "G") msg_type="Order Cancel/Replace Request";;
+        *) msg_type="";;
+    esac
+
+    echo ",$msg_type,$stock,$quantity,$price,$side,$order_id,$last_qty,$exec_id,$last_price" >> $output_file
+done < $input_file
+
+#########################################################
+
+
+
