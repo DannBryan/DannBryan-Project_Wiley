@@ -1,0 +1,500 @@
+   56  ls
+   57  ll
+   58  git add PYTHON
+   59  git add PYTHON/
+   60  git status
+   61  git add python -A
+   62  git add
+   63  git add .
+   64  git fuck you
+   65  cd python
+   66  git add .
+   67  git status
+   68  git commit -m "python files"
+   69  git push
+   70  git push -u origin main
+   71  git status
+   72  git add .
+   73  git status
+   74  ll
+   75  git add "C:\Users\mattb\Downloads\DannBryan-Project-Code\PYTHON"
+   76  git status
+   77  git add Dann Bryan burger shop submission
+   78  git add ~downloads/dannbryan-project-code/python/Dann Bryan project coffee shop feb 23.ipynb'
+   79  [200~git add ~downloads/dannbryan-project-code/python/Dann Bryan project coffee shop feb 23.ipynb'
+   80  history > bad-day-git
+   81  cd ..
+   82  git branch
+   83  git log
+   84  git reset --hard 7506513caa7b6df8b665afba10cecea4658a76f1
+   85  git reset --hard  ae5abedff20f736def1e1dac081810e749a3ae46
+   86  git log
+   87  git reset --hard 42bae570a265ddbb8875cbbf7e6e07d5aa5b4f97
+   88  git log
+   89  git reset --hard 42bae570a265ddbb8875cbbf7e6e07d5aa5b4f97 
+   90  git log
+   91  git status
+   92  git add PYTHON/bad-day-git
+   93  git status
+   94  git push -u origin main
+   95  git remote -v
+   96  git pull
+   97  git mergetool
+   98  git pull origin main
+   99  git pull main origin
+  100  git pull origin
+  101  git pull origin main
+  102  git add 
+  103  git commit
+  104  git status
+  105  git logs
+  106  git log
+  107  git status
+  108  git branch -r
+  109  git branch 
+  110  git branch -r
+  111  git status
+  112  git add/rm PYTHON/bad-day-git
+  113  git rm PYTHON/bad-day-git
+  114  git status
+  115  git commit
+  116  git status
+  117  git log
+  118  git remote -v
+  119  git fetch git-learning.git
+  120  git fetch DannBryan/git-learning.git
+  121  git fetch git-learning
+  122  git status
+  123  git branch
+  124  git branch -r
+  125  ls
+  126  cd python
+  127  ll
+  128  cd projects
+  129  ll
+  130  git add .
+  131  git status
+  132  git add code pastes
+  133  git commit -m "16:45"
+  134  git push
+  135  git push -u origin main
+  136  git push -u master main
+  137  git remote -v
+  138  git push -u main master
+  139  git push -u origin master
+  140  git push -u origin main
+  141  cd ..
+  142  git remote -v
+  143  cd ..
+  144  git remote -v
+  145  git status
+  146  git merge master
+  147  git merge
+  148  cd python
+  149  git merge
+  150  git branch
+  151  git branch -r
+  152  git log
+  153  ll -s
+  154  ll -l
+  155  cd DannBryan-Project_Wiley/
+  156  git status
+  157  ls
+  158  cat notes.txt 
+  159  git branch -a
+  160  git remote -v
+  161  git add .
+  162  git commit -m "pushing back no changes "
+  163  vi notes.txt 
+  164  git staus
+  165  git status
+  166  add notes.txt 
+  167  git add notes.txt 
+  168  git push -u remotes main
+  169  git push -u origin main
+  170  cd ..
+  171  winget -v 
+  172  winget install minikube
+  173  minikube start
+  174  kubectl get po
+  175  ls
+  176  cd wiley_c338
+  177  ll
+  178  cat dep-nginx.yaml.txt
+  179  kubectl create dep-nginx.yml
+  180  kubectl create -f dep-nginx.yml
+  181  kubectl create -f dep-nginx.yaml
+  182  kubectl create -f dep-nginx.yaml
+  183  kubectl create -f dep-nginx.yml
+  184  ls
+  185  cat dep-nginx.yaml 
+  186  kubectl create -f dep-nginx.yaml 
+  187  vi dep-nginx.yaml 
+  188  kubectl create -f dep-nginx.yaml 
+  189  vi svc
+  190  vi svc_nginx.yaml 
+  191  vi svc_nginx.yaml 
+  192  vi pod
+  193  vi pod-nginx.y
+  194  vi pod-nginx.yaml
+  195  kubectl create -f svc-nginx.yaml 
+  196  git status
+  197  ls
+  198  rm pod_nginx.y
+  199  rm -f pod-nginx.y 
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd project_wiley_work/
+  204  cd proj
+  205  cd project-wiley-work
+  206  ls
+  207  rm Linux-docs/ PYTHON SQL README.md notes.txt 
+  208  rm -f Linux-docs/
+  209  rm -r Linux-docs/ PYTHON/ SQL/
+  210  ls
+  211  https://github.com/DannBryan/DannBryan-Project_Wiley.git
+  212  git remote -v
+  213  git clone https://github.com/DannBryan/DannBryan-Project_Wiley.git
+  214  mkdir dann-practice
+  215  cd dann-practice/
+  216  vi filemy.txt
+  217  git add --all
+  218  git rm --cached DannBryan-Project_Wiley
+  219  ls .git
+  220  ls
+  221  cd ..
+  222  ls
+  223  rm DannBryan-Project_Wiley/
+  224  rm -r DannBryan-Project_Wiley/
+  225  ls
+  226  cd dann-practice/
+  227  ls
+  228  git add --all
+  229  git commit -m "my millionth commit"
+  230  git push
+  231  git remote add https://github.com/DannBryan/DannBryan-Project_Wiley.git
+  232  git pull
+  233  git pull https://github.com/DannBryan/DannBryan-Project_Wiley.git
+  234  git push
+  235  git push https://github.com/DannBryan/DannBryan-Project_Wiley.git
+  236  git push --set -upstream https://github.com/DannBryan/DannBryan-Project_Wiley.git master
+  237   git push --set-upstream https://github.com/DannBryan/DannBryan-Project_Wiley.git master
+  238  git push
+  239  git status
+  240  ls
+  241  ls .git
+  242  cat filemy.txt 
+  243  git pull
+  244  git add filemy.txt 
+  245  git commit filemy.txt -m "want to see in repo"
+  246  git pull DannBryan-Project_Wiley
+  247  DannBryan/DannBryan-Project_Wiley
+  248  git pull DannBryan/DannBryan-Project_Wiley
+  249  git remote -v
+  250  git remote -a
+  251  git branch -r
+  252  git branch
+  253  cd ..
+  254  cd ..
+  255  git branch
+  256  cd project_wiley_work/
+  257  git checkout -b testbranch
+  258  ls
+  259  cd dann-practice/
+  260  vi mybranch.txt
+  261  git add --all
+  262  git commit -m "again with the pushing"
+  263  git push -u origin testbranch
+  264  git push -u main testbranch
+  265  git push -u testbranch main
+  266  git push -u origin main
+  267  git branch
+  268  git push -u master testbranch
+  269  cd ..
+  270  git push -u master testbranch
+  271  git push -u DannBryan/DannBryan-Project_Wiley testbranch
+  272  cd ..
+  273  git push -u DannBryan/DannBryan-Project_Wiley testbranch
+  274  cd DannBryan-Project_Wiley/
+  275  git push -u DannBryan/DannBryan-Project_Wiley testbranch
+  276  cd project_Wiley_work
+  277  cd project_wiley_work 
+  278  ls
+  279  cd ..
+  280  ls
+  281  cd project_wiley_work/
+  282  ls
+  283  cd dann-practice/
+  284  ls
+  285  git add --all
+  286  git commit -m "still"
+  287  git merge testbranch 
+  288  cd ..
+  289  git merge
+  290  git merge testbranch main
+  291  git merge testbranch master
+  292  ls
+  293  git rm -r dann-practice/
+  294  ls
+  295  cd ..
+  296  ls
+  297  rm -r project_wiley_work/
+  298  ls
+  299  cd project_wiley_work/
+  300  ls
+  301  cd ..
+  302  ls
+  303  git branch -r
+  304  cd git-learning/
+  305  ls
+  306  cat new.file.txt 
+  307  cat newfile.txt 
+  308  git branch
+  309  git status
+  310  git pull
+  311  git pull git-learning newfile.txt
+  312  git pull DannBryan/git-learning newfile.txt
+  313  cd ..
+  314  git branch
+  315  ls .git
+  316  cd git-learning/
+  317  git branch
+  318  cd ..
+  319  git branch -d newfile.txt
+  320  git branch -D newfile.txt
+  321  git status
+  322  cd newfile.txt
+  323  cd git-learning/
+  324  git branch -D newfile.txt
+  325  ls
+  326  ls .git
+  327  cd ..
+  328  ls
+  329  cd wiley_c338/
+  330  ls
+  331  cd ..
+  332  cd DannBryan-Project_Wiley/
+  333  ls
+  334  rm -r Linux-docs/ PYTHON/ README.md SQL/ notes.txt 
+  335  ls
+  336  git pull
+  337  ls
+  338  git pull DannBryan/DannBryan-Project_Wiley
+  339  git remote -v
+  340  https://github.com/DannBryan/DannBryan-Project_Wiley.git (fetch)
+  341  git pull https://github.com/DannBryan/DannBryan-Project_Wiley.git
+  342  ls
+  343  ls -a
+  344  rm .git
+  345  cd .git
+  346  ls
+  347  ls -a
+  348  git branch
+  349  cd ..
+  350  git pull main
+  351  git pull origin
+  352  git pull Git-Jenkins-pushes
+  353  git remote _v
+  354  git remote -v
+  355  git pull origin
+  356  git push origin
+  357  git pull origin README.md
+  358  git pull notes.txt
+  359  git status
+  360  git restore --all
+  361  git restore -a
+  362  git restore -s
+  363  got reset --hard
+  364  git log
+  365  cd ..
+  366  ls
+  367  git branch -r
+  368  git branch --all
+  369  ls .git
+  370  cd DannBryan-Project_Wiley/
+  371  ls
+  372  vi last.txt
+  373  ls
+  374  git add last.txt 
+  375  git commit last.txt -m "last time today"
+  376  git push last.txt
+  377  git remote -v
+  378  git push origin main
+  379  git pull last.txt
+  380  vi last.txt 
+  381  git add last.txt 
+  382  git commit -m "adding to page"
+  383  git push -u origin main
+  384  git branch -r
+  385  git branch -d master
+  386  cd ..
+  387  ls
+  388  cd DannBryan-Project_Wiley/
+  389  ls
+  390  git status
+  391  git pull
+  392  ls
+  393  cat last.txt 
+  394  vi tobecommited.txt
+  395  git add tobecommited.txt 
+  396  git commit tobecommited.txt -m "doing it"
+  397  git push -u origin main
+  398  vi tobecommited.txt
+  399  git add 
+  400  git add tobecommited.txt 
+  401  git commit tobecommited.txt -m "deleted one line and replaced"
+  402  git push -u origin main
+  403  git status
+  404  git add -all
+  405  git add --all
+  406  git commit -m "delete"
+  407  git status
+  408  git push
+  409  ls
+  410  cd ..
+  411  ls
+  412  cd documents
+  413  cd ..
+  414  ls
+  415  cd public
+  416  ls
+  417  cd documents
+  418  ls
+  419  cd Python\ Scripts/
+  420  ls
+  421  cd ..
+  422  ls
+  423  cd ..
+  424  ls
+  425  cd ..
+  426  ls
+  427  cd All\ Users/
+  428  ls
+  429  cd Documents/
+  430  ls
+  431  cd ..
+  432  ls
+  433  cd ..
+  434  ls
+  435  cd Default User'
+  436  cd mattb/
+  437  ls
+  438  cd DannBryan-Project-Code
+  439  ls
+  440  cd DannBryan-Project-Code/
+  441  ls
+  442  mv Linux\ docs/ Linux
+  443  ls
+  444  mv SQL\ Submissions/ SQL
+  445  mv code\ pastes/ Snippets
+  446  ls
+  447  mv worksheets/ Jupyter_Notes
+  448  cp Linux/ PYTHON/ SQL/ Snippets/ Jupyter_Notes/ > DannBryan-Project_Wiley
+  449  cp -r Linux/ PYTHON/ SQL/ Snippets/ Jupyter_Notes/ > DannBryan-Project_Wiley
+  450  cd ..
+  451  cd DannBryan-Project_Wiley
+  452  ls
+  453  cd ..
+  454  cd DannBryan-Project_Wiley/
+  455  ls
+  456  git add --all
+  457  git commit -m "adding project folders"
+  458  git push -u origin main
+  459  git staus
+  460  git status
+  461  git add Jupyter_Notes/ PYTHON/
+  462  git status
+  463  git commit -a
+  464  git add python
+  465  git add --all
+  466  git commit -m "delete2"
+  467  git push
+  468  git status
+  469  git status
+  470  git commit Jupyter_Notes/
+  471  git commit Python -m
+  472  git add python -m "something2
+  473  git add python -m "something2"
+  474  git add PYTHON
+  475  git push
+  476  git status
+  477  git restore Jupyter_Notes/PYTHON
+  478  git status
+  479  cat Jupyter_Notes/
+  480  git rm --cached
+  481  git rm --cached PYTHON
+  482  git rm --cached PYTHON Jupyter_Notes/PYTHON
+  483  git rm --cached PYTHON Jupyter_Notes/
+  484  ls
+  485  git submodule deinit PYTHON.git
+  486  git submodule deinit PYTHON
+  487  git submodule deinit .git
+  488  cd Jupyter_Notes/
+  489  cd PYTHON/
+  490  git submodule deinit 
+  491  git submodule deinit --all
+  492  git rm .git
+  493  git rm -f .git
+  494  cd ..
+  495  git log
+  496  ls
+  497  cd DannBryan-Project_Wiley/
+  498  ls
+  499  git pull
+  500  git push
+  501  git status
+  502  git restore --staged PYTHON
+  503  git status
+  504  git restore PYTHON
+  505  git status
+  506  ls .git
+  507  ls
+  508  git branch
+  509  cd ..
+  510  git branch
+  511  cd DannBryan-Project_wiley
+  512  ls
+  513  cd Jupyter_Notes/
+  514  ls
+  515  cd snippets
+  516  ls
+  517  cd ..
+  518  ls
+  519  cd ..
+  520  git checkout -b notlong
+  521  ls
+  522  vi last.txt 
+  523  git status
+  524  git branch
+  525  vi mybranch
+  526  git add --all
+  527  git commit -m "notlong branch: new additions"
+  528  git push
+  529  git push -u origin notlong
+  530  git status
+  531  vi mybranch 
+  532  git add -all
+  533  git add --all
+  534  git commit -m "newer additions"
+  535  git push
+  536  git status
+  537  git checkout main
+  538  git pull
+  539  git checkout mybranch
+  540  git merge main
+  541  vi mybranch 
+  542  git add --all
+  543  git commit -m "still working on ma branch"
+  544  git push
+  545  git status
+  546  branch -r
+  547  git branch -r
+  548  git branch -d notlong
+  549  git branch -r
+  550  git branch -r
+  551  git status
+  552  ls
+  553  cd Linux/
+  554  ls
+  555  history > repo_push_25-03-23
